@@ -1,0 +1,241 @@
+@charset "gb2312";
+*{margin: 0px;padding: 0px;font-size:14px;color:#333; font-family:微软雅黑, Arial, Helvetica, sans-serif; line-height:28px; list-style:none}
+body{max-width:1920px; margin:0 auto}
+img{ border:none}
+a{ color:#333; text-decoration:none;}
+a:hover{ text-decoration:none; color:#1063a7;}
+.left{ float:left}
+.right{ float:right}
+.clear{clear:both; height:0; line-height:0; overflow:hidden; display:block}
+
+.topArea{ width:100%; height:36px; margin:0 auto; border-bottom:1px solid #dddddd}
+.topArea ul{ width:1196px; height:36px; margin:0 auto}
+.topArea ul li{ float:left; line-height:36px; color:#333333; font-size:14px}
+.topArea ul li a{line-height:36px; color:#333333; font-size:14px}
+
+.heading{ width:1196px; height:109px; margin:0 auto; background:url('images/logo.jpg') center center no-repeat}
+
+.navbg{ width:100%; height:51px; margin:0 auto; background:#00569f}
+.navbg ul{ width:1192px; height:51px; margin:0 auto}
+.navbg ul li{float:left; }
+.navbg ul li a{ width:170px; height:51px; line-height:51px; display:block; text-align:center;color:#fff; font-size:16px; }
+.navbg ul li a:hover{line-height:51px;color:#fff; font-size:16px; background:#ff6000}
+
+
+/*正文开始*/
+.fullSlide {
+	width:100%;min-width:1200px;position:relative;height:499px;overflow:hidden; margin:0 auto; border-top:1px solid #e5e5e5}
+.fullSlide .bd {
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+	overflow:hidden;
+}
+.fullSlide .bd ul {
+	width:100% !important;
+}
+.fullSlide .bd li {
+	width:100% !important;
+	height:499px;
+	overflow:hidden;
+	text-align:center;
+    background-position:center top;
+}
+.fullSlide .bd li a {
+	display:block;
+	height:499px;
+}
+.fullSlide .hd {
+	width:100%;
+	position:absolute;
+	z-index:1;
+	bottom:0px;
+	left:0;
+	height:30px;
+	line-height:30px;
+}
+.fullSlide .hd ul {
+	text-align:center;
+}
+.fullSlide .hd ul li {
+	cursor:pointer;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width:100px;
+	height:7px;
+	margin:1px;
+	overflow:hidden;
+	background:#000;
+	/*filter:alpha(opacity=50);
+	opacity:0.5;*/
+	line-height:999px;
+}
+.fullSlide .hd ul .on {
+	background:#1161c0;
+}
+.fullSlide .prev,.fullSlide .next {
+	display:block;
+	position:absolute;
+	z-index:1;
+	top:50%;
+	margin-top:-36px;
+	left:2%;
+	z-index:1;
+	cursor:pointer;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+	display:none;
+	width:73px; 
+	height:73px;
+}
+.fullSlide .prev
+{
+      background:url('images/left1s.png') no-repeat;
+  }
+.fullSlide .next {
+	left:auto;
+	right:2%;
+	background: url('images/right1s.png') no-repeat;
+}
+/**/
+.link{ width:100%; height:59px; background:#f5f5f5;margin:0 auto; line-height:59px;}
+.link ul{ width:1196px; height:59px; margin:0 auto;}
+.link ul li{ float:left; height:59px}
+.link ul li p{line-height:59px;width:880px; height:59px; color:#6a6a6a; font-size:14px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block}
+.link ul li a{line-height:59px; color:#6a6a6a; font-size:14px}
+.bannerfo{ width:240px;height:59px; position:relative}
+.bannerfo dl dt{ display:inline}
+.bannerfo dl .inputbox{ position:absolute; left:0; top:13px; width:240px; height:34px;}
+.bannerfo dl .inputbox input{ width:157px; height:32px; display:block;padding:0 15px;color:#999999; line-height:32px; font-size:13px; background:#eeeeee; border:1px solid #015584; border-right:none}
+.bannerfo dl .menuser{ position:absolute; left:188px; top:13px; width:52px; height:34px; }
+.bannerfo dl .menuser img{width:52px; height:34px}
+
+.product{ width:1196px; height:auto; margin:45px auto}
+
+.lefta{ width:240px; height:auto; display:block; float:left; }
+
+.cplist{ width:240px; height:auto;}
+.cplist .head{ width:240px; height:76px; background:#00569f; text-indent:32px; color:#fff; font-size:26px; line-height:76px}
+.cplist .content{ width:216px; height:auto; margin-top:5px; border:1px solid #dddddd; padding:11px}
+
+.onepro,.onepro:hover{ width:215px; height:47px; font-size:15px; background: url('images/arraw.jpg') no-repeat 180px center; border-bottom:1px dotted #bbbbbb;line-height:47px; text-indent:25px; display: block;color:#333; margin:0 auto; text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block}
+.twopro,.twopro:hover{ width:194px; height:33px; background:url('images/arraw1.jpg') 170px center no-repeat; line-height:33px; border-bottom:1px solid #dddddd; text-indent:10px; display: block;font-size:14px;color:#747474; margin:0 auto; text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block;}
+
+.cplist .content p{ font-size:14px; color:#424242; line-height:25px; padding-top:20px}
+.cplist .tel{ width:240px; height:81px; margin:0 auto; background:url('images/lefttel.jpg') no-repeat 0 0}
+
+.cpdisplay{width:929px; height:auto; float:right; border:1px solid #dcdcdc}
+.cpdisplay .head{ width:929px; height:57px; background: url('images/good.jpg') 22px center no-repeat #f8f8f8; border-bottom:1px solid #dcdcdc}
+.cpdisplay .head p{text-indent:48px; line-height:57px;color:#0062b1; float:left; font-size:18px; font-weight:bold}
+.cpdisplay .head a{ float:right; margin-right:15px; width:72px; height:57px; display:block; text-align:center; background:url('images/more.jpg') 0 center no-repeat; line-height:57px; color:#fff; font-size:12px}
+.cpdisplay .content{ width:899px; height:auto; padding:15px}
+.proimg_aa{width:259px; height:248px; display:block; background:#ebebeb;float:left; margin:10px 18px;text-align:center; line-height:40px; text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block}
+.proimg_aa img{ width:245px; height:194px; padding:7px; padding-bottom:0}
+
+.reason{ width:100%; height:auto; margin:0 auto; background:#f0f0f0; padding-top:60px; padding-bottom:60px}
+.reason .main{ width:1196px; height:auto; margin:0 auto}
+.reason .main .title{ display:block; text-align:center; color:#00569f; font-size:31px; font-weight:bold; line-height:35px}
+.reason .main .title p{ color:#5b5b5b; font-size:14px; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase}
+.reason .main .content{ width:1196px; min-height:377px; margin-top:35px; position:relative}
+
+.frameaa{ width:395px; height:182px; display:block; background:#fff; border-top:3px solid #00569f;position:relative}
+.frameaa .num{ position:absolute; left:23px; top:48px; width:58px; height:67px; display:block; text-align:center; line-height:67px; color:#00569f; font-size:24px; background: url('images/num.jpg') no-repeat 0 0}
+.frameaa .txt{ position:absolute; left:98px; top:46px; width:280px; height:auto; font-size:14px; line-height:25px; color:#3d3d3d}
+.frameaa .txt p{ font-size:16px; color:#00569f; font-weight:bold; line-height:32px; }
+
+.reason .main .content .m1{position:absolute; left:0; top:0}
+.reason .main .content .m2{position:absolute; left:800px; top:0}
+.reason .main .content .m3{position:absolute; left:0; top:192px}
+.reason .main .content .m4{position:absolute; left:800px; top:192px}
+.reason .main .content .m5{position:absolute; left:407px; top:0}
+
+.framebb{width:350px; min-height:347px; display:block; background:#00569f; padding:15px; font-size:13px; line-height:25px; color:#fff}
+.framebb img{ width:350px; height:171px; margin-bottom:10px}
+.framebb p{ text-align:center; font-size:20px; color:#fff; line-height:45px; font-weight:bold}
+.framebb span{ display:block;text-align:center; font-size:12px; color:#fff; line-height:35px}
+
+.case{ width:1196px; height:auto; margin:50px auto}
+.case .head{ display:block; height:auto; text-align:center; background:url('images/dasha.jpg') repeat-x left 20px}
+.case .head p{ width:220px; height:45px; margin:0 auto; text-align:center; background:#fff;font-size:30px; font-weight:bold; line-height:45px; color:#333333}
+.case .head span{font-size:14px; line-height:25px; color:#828282}
+.case .content{ margin-top:30px;}
+
+.proimg_cc{width:265px; height:265px; display:block; float:left; margin:0 18px;text-align:center; line-height:40px; text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block}
+.proimg_cc img{ width:265px; height:225px;}
+
+
+.about{ width:100%; height:auto; margin:0 auto; background: url('images/bg_gsjj.jpg') center top no-repeat; padding-top:80px; padding-bottom:80px;}
+.about .main{ width:1196px; height:auto; margin:0 auto}
+.about .main .title{ min-height:75px; background:url('images/dec_gsjj.jpg') center bottom no-repeat; display:block; text-align:center; }
+.about .main .title p{ font-size:29px; color:#fff; font-weight:bold; line-height:45px}
+.about .main .title span{ font-size:14px; color:#fff; line-height:25px}
+.about .main .content{ margin-top:45px;} 
+.about .main .content .tu{ float: left; margin-right:38px}
+.about .main .content .tu img{ border:6px solid #fff}
+.about .main .content .zi{ float:right;line-height:25px; font-size:14px; width:760px; height: auto; display:block; overflow:hidden; color:#fff}
+.about .main .content .zi p{color:#fff; line-height:45px; font-size:24px; font-weight:bold; margin-bottom:10px }
+.about .main .content .zi a{ margin-top:30px; width:130px; height:40px; background:#e64706; color:#fff; display:block; text-align:center; font-size:14px; line-height:40px}
+.about .main .content .zi a:hover{ background:#f05c1f; color:#fff;}
+
+.news{ width:1196px; height:auto; margin:50px auto}
+.news .head{ display:block; height:auto; text-align:center; background:url('images/dasha.jpg') repeat-x left 20px}
+.news .head p{ width:220px; height:45px; margin:0 auto; text-align:center; background:#fff;font-size:30px; font-weight:bold; line-height:45px; color:#333333}
+.news .head span{font-size:14px; line-height:25px; color:#828282}
+.news .content{ margin-top:30px;}
+
+.framecc{width:260px;height:305px; padding:9px; border:1px solid #dddddd; display:block;float:left; margin:0 9px; font-size:12px; color:#4e4e4e; line-height:25px}
+.framecc img{ width:260px; height:160px;}
+.framecc p{font-size:16px; color:#4e4e4e;width:260px; height:35px; line-height:35px; text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block}
+.framecc span{font-size:13px; line-height:25px; color:#717171; height:75px; display:block; overflow:hidden}
+
+.foot{ width:100%; height:auto; margin:0 auto; background:#004783}
+.foot .dh{ width:100%; height:50px; margin:0 auto; background:#00569f}
+.foot .dh ul{ width:1192px; height:50px; margin:0 auto}
+.foot .dh ul li{float:left; }
+.foot .dh ul li a{ width:149px; height:50px; line-height:50px; display:block; text-align:center;color:#fff; font-size:16px; }
+.foot .dh ul li a:hover{line-height:50px;color:#fff; font-size:16px; background:#ff6000}
+.foot .content{ padding-top:30px; padding-bottom:30px; width:1196px; height:auto; margin:0 auto;  font-size:14px; line-height:30px; color:#fff}
+.foot .content a{ font-size:14px; line-height:30px; color:#fff}
+
+.mainframe{ width:1196px; height:auto; margin:25px auto;}
+
+.rightframe{width:929px; height:auto;float:right;}
+
+.maincont{width:929px; height:auto;border:1px solid #dcdcdc}
+.maincont .head{ width:929px; height:57px; background: url('images/good.jpg') 22px center no-repeat #f8f8f8; border-bottom:1px solid #dcdcdc}
+.maincont .head p{text-indent:48px; line-height:57px;color:#0062b1; float:left; font-size:18px; font-weight:bold}
+.maincont .head span{ float:right; margin-right:15px; line-height:57px; color:#666; font-size:12px}
+.maincont .content{ width:899px; min-height:533px; padding:15px; line-height:30px}
+
+.proimg_bb{width:270px; height:242px; display:block;float:left; background:#efefef; margin:14px;text-align:center; line-height:40px; text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block}
+.proimg_bb img{ width:270px; height:202px;}
+
+
+
+.blocka{ width:100%; height:auto; margin:0 auto; padding-top:10px; padding-bottom:10px; border-bottom:1px solid #bdbdbd}
+.blocka p a{ line-height:40px; font-size:16px; font-weight:bold;height:40px;width:100%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block}
+.blocka .time{ line-height:30px; font-size:14px; color:#ff6600}
+.blocka span{ line-height:25px; font-size:13px; color:#555; width:100%; height:50px; display:block; overflow:hidden}
+
+.framegg{ width:909px; height:90px; padding:9px; border:1px solid #bdbdbd;display:block; cursor:pointer; margin:0 auto; margin-bottom:20px}
+.framegg .time{ width:60px; height:auto; float:left; margin-right:25px}
+.framegg .time p{ width:60px; height:60px; display:block; background:#cccccc; line-height:60px; display:block;text-align:center; font-size:36px; font-family:Arial, Helvetica, sans-serif;}
+.framegg .time span{ display:block;text-align:center; font-size:12px; color:#666666; font-family:Arial, Helvetica, sans-serif; line-height:28px;}
+.framegg .righttxt{ width:824px; height:auto; float:right}
+.framegg .righttxt p a{ width:824px; height:40px; font-size:16px; color:#444444;line-height:40px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block;}
+.framegg .righttxt span{ width:824px; height:40px; margin:0 auto; display:block; overflow: hidden;font-size:12px;line-height:22px; color:#777777;}
+.framegg:hover{ width:909px; height:90px; padding:9px; border:1px solid #bdbdbd; background:#f9f9f9; display:block; cursor:pointer; margin:0 auto; margin-bottom:20px}
+.framegg:hover .righttxt p a{ width:824px; height:40px; font-size:16px; color:#840808;line-height:40px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden; display:block;}
+
+
+#telback{ background:url('images/lxs.png') no-repeat 10px -30px; min-height:400px; padding:80px 0 0 400px; width:360px; font-size:15px; line-height:35px}
+#telback b{font-size:16px; color:#ff6600; line-height:35px; font-weight:bold}
+
+.proshow .prtitle{ line-height:30px; text-align:center; font-size:22px; padding:15px 0; font-family:"微软雅黑"; font-weight:bold}
+.proshow .primgpic{ max-width:95%; height:auto; overflow-x:hidden; margin:0 auto; text-align:center}
+.proshow .primgpic img{ max-width:95%; border:1px solid #ddd}
+.proshow .prtent img{max-width:95%;  margin:10px auto}
+.proshow .prtent,.proshow .prtent p,.proshow .prtent span,.proshow .prtent li,.proshow .prtent div,.proshow .prtent td,.proshow .prtent th,.proshow .prtent dd{ font-size:13px; line-height:28px}
+.proshow .next{ padding-top:10px;color:#666; border-top:1px dotted #cfcfcf;margin-top:10px}
+.proshow .pos{ height:16px; line-height:16px; border-bottom:1px dashed #aaa; text-align:center; padding-bottom:8px; margin-bottom:15px; color:#999}
